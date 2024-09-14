@@ -4,8 +4,8 @@
 bool yoonyear(int n) {
     if (n % 4 != 0) return false;
     else if (n % 100 != 0) return true;
-    else if (n % 400 == 0) return false;
-    return true;
+    else if (n % 400 == 0) return true;
+    return false;
 }
 
 int main() {
