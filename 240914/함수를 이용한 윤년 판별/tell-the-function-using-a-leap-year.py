@@ -3,7 +3,7 @@ def yoonyear(n):
         return False
     elif n % 100 != 0:
         return True
-    elif n & 400 == 0:
+    elif n % 400 == 0:
         return True
     return False
 
