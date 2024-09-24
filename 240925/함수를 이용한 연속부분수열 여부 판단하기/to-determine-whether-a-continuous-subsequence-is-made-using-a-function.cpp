@@ -12,8 +12,8 @@ bool isSequence(const vector<int>& A, const vector<int>& B) {
                 result = false;
                 break;
             }
-        if (result) return true;
         }
+        if (result) return true;
     }
     return false;
 }
